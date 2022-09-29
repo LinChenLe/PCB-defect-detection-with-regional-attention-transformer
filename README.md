@@ -4,6 +4,9 @@ ours thesis in the (not public now), but unfortunately ours only have Chinese ve
 # Thanks
 this thesis used data is form DeepPCB: https://github.com/tangsanli5201/DeepPCB and TDD-Net https://github.com/Ixiaohuihuihui/Tiny-Defect-Detection-for-PCB (Augmentation dataset), ours very thanks for both thesis public dataset, make we to use.
 
-#★資料集★
-
+# 資料集
 1. DeepPCB資料集請至原論文github https://github.com/tangsanli5201/DeepPCB 下載。
+2. TDD-Net資料集請至github https://github.com/Ixiaohuihuihui/Tiny-Defect-Detection-for-PCB 下載「資料增量後的數據集(Augmentation Dataset)。
+
+# RAT在DeepPCB資料集
+## DeepPCB資料前處理
