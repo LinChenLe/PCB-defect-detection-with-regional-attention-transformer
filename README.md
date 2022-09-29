@@ -11,7 +11,7 @@ this thesis used data is form DeepPCB: https://github.com/tangsanli5201/DeepPCB 
 # RAT在DeepPCB資料集
 	1. 將「make_mask.py」放入「Regional_Attention_Transformer」，並將程式內的「dir_path」指定為「"./DeepPCB-master/PCBData/"」以及「file_path」指定為「dir_path+"trainval.txt"」，執行完畢後將「file_path」指定為「dir_path+"test.txt"」(此程式會建立每個瑕疵的位置遮罩(mask)以及類別，以方便後續使用)。
 #### 主幹架構在DeepPCB資料集預訓練
-	1. 至「/Program/Train&Val_DeepPCB/Backbone_for_DeepPCB/」資料夾中將所有「.py」檔案複製至「Regional_Attention_Transformer」資料夾中，確認「config.py」中的「data_foloder」為「"./DeepPCB-master/PCBData/"」。
+1. 至「/Program/Train&Val_DeepPCB/Backbone_for_DeepPCB/」資料夾中將所有「.py」檔案複製至「Regional_Attention_Transformer」資料夾中，確認「config.py」中的「data_foloder」為「"./DeepPCB-master/PCBData/"」。
 	2. 根據需求可更改其餘「.py」檔中的參數。
 	3. 執行「main.py」。
 	4. 訓練過程中所儲存的權重紀錄點會在「/ckpt/」中。
