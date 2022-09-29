@@ -48,3 +48,4 @@ this thesis used data is form DeepPCB: https://github.com/tangsanli5201/DeepPCB 
   # RAT消融實驗在TDD-Net資料集
   1. 至「/Program/Train&Val_TDD-Net/選擇要去除Anchor還是RegionalAttention/」資料夾中將所有「.py」檔案複製至「Regional_Attention_Transformer」資料夾中，確認「config.py」中的「data_foloder」為「"./TDD_dataset/convert_data/
 	2.與整體訓練步驟2、3、4、5一樣。
+
