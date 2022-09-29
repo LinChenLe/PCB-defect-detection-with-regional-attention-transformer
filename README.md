@@ -6,4 +6,4 @@ this thesis used data is form DeepPCB: https://github.com/tangsanli5201/DeepPCB 
 
 #★資料集★
 
-1. DeepPCB資料集請至原論文github「https://github.com/tangsanli5201/DeepPCB」下載。
+1. DeepPCB資料集請至原論文github https://github.com/tangsanli5201/DeepPCB 下載。
