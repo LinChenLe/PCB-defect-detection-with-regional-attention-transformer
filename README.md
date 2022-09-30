@@ -5,8 +5,8 @@ ours thesis in the (https://hdl.handle.net/11296/jvqvsb), but unfortunately ours
 this thesis used data is form DeepPCB: https://github.com/tangsanli5201/DeepPCB and TDD-Net https://github.com/Ixiaohuihuihui/Tiny-Defect-Detection-for-PCB (Augmentation dataset), ours very thanks for both thesis public dataset, make we to use.
 
 # 資料集
-1. DeepPCB資料集請至原論文github「https://github.com/tangsanli5201/DeepPCB」下載。
-2. TDD-Net資料集請至github「https://github.com/Ixiaohuihuihui/Tiny-Defect-Detection-for-PCB」下載「資料增量後的數據集(Augmentation Dataset)」。
+1. DeepPCB資料集請至原論文github「https://github.com/tangsanli5201/DeepPCB 」下載。
+2. TDD-Net資料集請至github「https://github.com/Ixiaohuihuihui/Tiny-Defect-Detection-for-PCB 」下載「資料增量後的數據集(Augmentation Dataset)」。
 
 # RAT在DeepPCB資料集
 1. 將「make_mask.py」放入「Regional_Attention_Transformer」，並將程式內的「dir_path」指定為「"./DeepPCB-master/PCBData/"」以及「file_path」指定為「dir_path+"trainval.txt"」，執行完畢後將「file_path」指定為「dir_path+"test.txt"」(此程式會建立每個瑕疵的位置遮罩(mask)以及類別，以方便後續使用)。
