@@ -74,3 +74,16 @@ this thesis used data is form DeepPCB: https://github.com/tangsanli5201/DeepPCB 
 1. 將「/Program/Train&Val_TDD-Net/選擇所需要的實驗內容之.py檔案/」複製至「Regional-Attention_Transformer」中，並確認「ckpt」資料夾中有對應的權重檔案，以及「config.py」中的「load_backbone_ckpt以及load_ckpt」有設定對應的權重路徑。
 2.執行「print_submit.py」此程式會輸出對應的答案至Answer中。
 3.執行「/Answer/TDD_Net/」中的「meanAveragePrecision.py」檔案，將會獲得繪製好的mAP圖片。
+
+# 權重檔案
+若需要使用我們訓練好的模型權重檔案，請依需求下載以下檔案。
+#### 對於在DeepPCB資料集上的權重檔
+1. RAT主幹架構在DeepPCB預訓練權重檔 https://drive.google.com/file/d/1sg011Xo15i1nzXKtyNPwjmbGin4Ohs1j/view?usp=sharing
+2. RAT整體訓練在DeepPCB權重檔 https://drive.google.com/file/d/1s4kv1tkgUJn2YKZDkYU_-TeVXryV3_mu/view?usp=sharing
+3. 「消融實驗」刪除Anchor center的RAT整體訓練在DeepPCB權重檔 https://drive.google.com/file/d/1xIiwxmfUjICgfeY_Y5vdINbdL1FSZMjY/view?usp=sharing
+4. 「消融實驗」刪除Regional Attention的RAT整體訓練在DeepPCB權重檔 https://drive.google.com/file/d/1cTw5w1Q7YNW3SJkMQO7OmzA84Rum19xg/view?usp=sharing
+#### 對於在TDD-Net資料集上的權重檔
+1. RAT主幹架構在TDD-Net預訓練權重檔 https://drive.google.com/file/d/1R6W4IBYJNATGb0L2W-zyCN9hSpmRhJpM/view?usp=sharing
+2. RAT整體訓練在TDD-Net權重檔 https://drive.google.com/file/d/1jTnSaUk08pIsxbRT9dhiH_6qT-mnij0m/view?usp=sharing
+3. 「消融實驗」刪除Anchor center的RAT整體訓練在TDD-Net權重檔 https://drive.google.com/file/d/1VYYMrgHHkaxJTuYx3yKgbT6o_6qngWms/view?usp=sharing
+4. 「消融實驗」刪除Regional Attention的RAT整體訓練在TDD-Net權重檔 https://drive.google.com/file/d/10SdbrTJ2OjaASpmgwx1so_LbWTv2iclQ/view?usp=sharing
