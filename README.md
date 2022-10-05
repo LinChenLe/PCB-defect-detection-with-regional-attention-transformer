@@ -68,7 +68,7 @@ this thesis used data is form DeepPCB: https://github.com/tangsanli5201/DeepPCB 
 
 # 在TDD-Net中評估mAP
 #### RAT完整訓練在TDD-Net資料集中的PR曲線
-[TDD_whole_PR.pdf](https://github.com/LinChenLe/PCB-defect-detection-with-regional-attention-transformer/files/9712768/TDD_whole_PR.pdf)
+![image](https://user-images.githubusercontent.com/94216474/193983780-3d6d48f6-b7c9-41d0-ae71-32c2f6bb4c0b.png)
 #### TDD-Net標準答案預處理
 1. 確認「Answer/TDD_Net/」資料夾中是否含有資料夾「gt」、「submit」、「change.py」、「meanAveragePrecision.py」。
 2. 將「TDD_dataset/convert_data/test」中的所有文字檔複製到「Regional-Attention-Transformer/Answer/TDD_Net/gt/」中，再執行「change.py」檔案，修改所有答案的點符號，使其能夠對應於本論文之程式。
