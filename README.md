@@ -52,7 +52,7 @@ this thesis used data is form DeepPCB: https://github.com/tangsanli5201/DeepPCB 
 
 # 在DeepPCB中評估mAP
 #### RAT完整訓練在DeePCB資料集中的PR曲線
-[DP_WholePR.pdf](https://github.com/LinChenLe/PCB-defect-detection-with-regional-attention-transformer/files/9712762/DP_WholePR.pdf)
+![image](https://user-images.githubusercontent.com/94216474/193984024-74cb9b32-2b16-422e-be1a-14a3ad612581.png)
 #### DeepPCB標準答案預處理
 1. 確認「Answer/DeepPCB/」資料夾中是否含有資料夾「gt」、「submit」、「change.py」、「meanAveragePrecision.py」。
 2. 將「DeepPCB-master/evaluation/gt.zip」複製到「Regional-Attention-Transformer/Answer/DeepPCB/」中，並解壓縮，再將資料夾所有檔案在終端機使用「chmod 777 ./gt/ -R」，修改權限，再執行「change.py」檔案，修改所有答案的點符號，使其能夠對應於本論文之程式。
@@ -68,7 +68,7 @@ this thesis used data is form DeepPCB: https://github.com/tangsanli5201/DeepPCB 
 
 # 在TDD-Net中評估mAP
 #### RAT完整訓練在TDD-Net資料集中的PR曲線
-![image](https://user-images.githubusercontent.com/94216474/193983780-3d6d48f6-b7c9-41d0-ae71-32c2f6bb4c0b.png)
+![image](https://user-images.githubusercontent.com/94216474/193984067-699f0f93-b8b7-4532-ac60-ba5592d5c91c.png)
 #### TDD-Net標準答案預處理
 1. 確認「Answer/TDD_Net/」資料夾中是否含有資料夾「gt」、「submit」、「change.py」、「meanAveragePrecision.py」。
 2. 將「TDD_dataset/convert_data/test」中的所有文字檔複製到「Regional-Attention-Transformer/Answer/TDD_Net/gt/」中，再執行「change.py」檔案，修改所有答案的點符號，使其能夠對應於本論文之程式。
